@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "07690981-3136-4008-a49a-b8a671ecb833",
+    "Name": "UsrYatchs_MobileFormPage",
+    "ModifiedOnUtc": "\/Date(1782835665000)\/",
+    "Parent": {
+      "UId": "019c694a-1a3b-4812-b2e5-219b326061ae",
+      "Name": "MobilePageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Yatchs mobile form page",
+    "DependsOn": []
+  }
+}
