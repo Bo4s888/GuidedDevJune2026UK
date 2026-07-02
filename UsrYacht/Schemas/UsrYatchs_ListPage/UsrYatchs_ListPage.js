@@ -40,18 +40,16 @@ define("UsrYatchs_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"width": 183
 						},
 						{
-							"id": "7adfbc4a-0504-59dd-ea3f-8e0e415534ee",
-							"code": "PDS_UsrColumn9",
-							"caption": "#ResourceString(PDS_UsrColumn9)#",
-							"dataValueType": 10,
-							"width": 204
+							"id": "9c997274-0120-06cd-c492-2e85d470f5ec",
+							"code": "PDS_UsrDriveType",
+							"caption": "#ResourceString(PDS_UsrDriveType)#",
+							"dataValueType": 10
 						},
 						{
-							"id": "c363421c-e93a-185b-8691-baf4c7727bfb",
-							"code": "PDS_UsrColumn10",
-							"caption": "#ResourceString(PDS_UsrColumn10)#",
-							"dataValueType": 10,
-							"width": 132
+							"id": "f0622426-11eb-7a63-6656-4cbb45949ef5",
+							"code": "PDS_UsrStatus",
+							"caption": "#ResourceString(PDS_UsrStatus)#",
+							"dataValueType": 10
 						},
 						{
 							"id": "28252474-730d-c16f-ec45-230e43b2113e",
@@ -106,14 +104,14 @@ define("UsrYatchs_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"path": "PDS.UsrPrice"
 						}
 					},
-					"PDS_UsrColumn9": {
+					"PDS_UsrDriveType": {
 						"modelConfig": {
-							"path": "PDS.UsrColumn9"
+							"path": "PDS.UsrDriveType"
 						}
 					},
-					"PDS_UsrColumn10": {
+					"PDS_UsrStatus": {
 						"modelConfig": {
-							"path": "PDS.UsrColumn10"
+							"path": "PDS.UsrStatus"
 						}
 					},
 					"PDS_UsrPassengersCount": {
@@ -163,11 +161,11 @@ define("UsrYatchs_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"UsrPrice": {
 							"path": "UsrPrice"
 						},
-						"UsrColumn9": {
-							"path": "UsrColumn9"
+						"UsrDriveType": {
+							"path": "UsrDriveType"
 						},
-						"UsrColumn10": {
-							"path": "UsrColumn10"
+						"UsrStatus": {
+							"path": "UsrStatus"
 						},
 						"UsrPassengersCount": {
 							"path": "UsrPassengersCount"

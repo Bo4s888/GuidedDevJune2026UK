@@ -100,7 +100,8 @@ define("UsrYatchs_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"control": "$PDS_UsrColumn9_iqclmjh",
 					"visible": true,
 					"readonly": false,
-					"placeholder": ""
+					"placeholder": "",
+					"valueDetails": null
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -128,7 +129,8 @@ define("UsrYatchs_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"control": "$PDS_UsrColumn10_im96ura",
 					"visible": true,
 					"readonly": false,
-					"placeholder": ""
+					"placeholder": "",
+					"valueDetails": null
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -207,6 +209,30 @@ define("UsrYatchs_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "Number",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 3,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "$Resources.Strings.PDS_UsrNumber_wjris70",
+					"control": "$PDS_UsrNumber_wjris70",
+					"placeholder": "",
+					"tooltip": "",
+					"readonly": true,
+					"multiline": false,
+					"labelPosition": "auto",
+					"visible": true
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 5
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -228,7 +254,7 @@ define("UsrYatchs_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					},
 					"PDS_UsrColumn9_iqclmjh": {
 						"modelConfig": {
-							"path": "PDS.UsrColumn9"
+							"path": "PDS.UsrDriveType"
 						}
 					},
 					"PDS_UsrColumn9_iqclmjh_List": {
@@ -246,7 +272,7 @@ define("UsrYatchs_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					},
 					"PDS_UsrColumn10_im96ura": {
 						"modelConfig": {
-							"path": "PDS.UsrColumn10"
+							"path": "PDS.UsrStatus"
 						}
 					},
 					"PDS_UsrColumn10_im96ura_List": {
@@ -288,6 +314,11 @@ define("UsrYatchs_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"PDS_UsrComment_6195hmw": {
 						"modelConfig": {
 							"path": "PDS.UsrComment"
+						}
+					},
+					"PDS_UsrNumber_wjris70": {
+						"modelConfig": {
+							"path": "PDS.UsrNumber"
 						}
 					}
 				}
